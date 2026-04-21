@@ -1,4 +1,30 @@
 "# My DevOps Project" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ------
 1)Perform Git operations to commit, push, merge branches, and create a pull request on GitHub.
 
@@ -281,7 +307,9 @@ Build & run
 docker build -t flask-container .
 docker run -d -p 5000:5000 --name myflask flask-container
 docker ps
-# Visit http://localhost:5000
+
+
+Visit http://localhost:5000
 
 -----
 9)Clone a GitHub repository, modify a file and push the changes back to the repository.
