@@ -15,4 +15,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 docker exec -u root jenkins bash -c "apt-get update && apt-get install -y docker.io"
 
 
+permission error :
+docker exec -u root jenkins chmod 666 /var/run/docker.sock
+
 -----
