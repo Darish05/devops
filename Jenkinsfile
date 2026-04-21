@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         IMAGE_NAME      = "myapp"
-        DOCKER_HUB_USER = "<your-dockerhub-username>"
+        DOCKER_HUB_USER = "darish05"
     }
     stages {
         stage('Clone') {
