@@ -8,7 +8,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<username>/<repo>.git'
+                    url: 'https://github.com/Darish05/devops.git'
             }
         }
         stage('Build Image') {
