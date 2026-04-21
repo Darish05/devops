@@ -16,15 +16,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 ------
 1)Perform Git operations to commit, push, merge branches, and create a pull request on GitHub.
 
